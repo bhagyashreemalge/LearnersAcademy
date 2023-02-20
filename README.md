@@ -32,6 +32,15 @@ The flow and features of the application:
 
 ● Plan more than two sprints to complete the application
 ● Document the flow of the application and prepare a flow chart 
+
+
+************************Note************************************
+1.Please run the H_Main application first as java application(It'lll create tables)(Please uncomment each class, belongin students and session save lines accordingly). otherwise it'll reate only records which are uncommented
+2.Execute the project on the server
+
+
+
+
 ● List the core concepts and algorithms being used to complete this application
 ● Implement the appropriate concepts, such as exceptions, collections, and sorting techniques for source code optimization and increased performance 
 
