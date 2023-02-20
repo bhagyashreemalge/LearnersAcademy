@@ -1,0 +1,24 @@
+CREATE SCHEMA 'flyway_data'
+
+CREATE TABLE `flyaway_data`.`sourcecountry` (
+  `sourcecountry_id` INT NOT NULL,
+  `sourcecountry_name` VARCHAR(45) NULL,
+  PRIMARY KEY (`sourcecountry_id`));
+
+CREATE TABLE `flyaway_data`.`destcountry` (
+  `destcountry_id` INT NOT NULL,
+  `destcountry_name` VARCHAR(45) NULL,
+  PRIMARY KEY (`destcountry_id`));
+
+CREATE TABLE `flyaway_data`.`airlines` (
+  `airlines_id` INT NOT NULL,
+  `airlines_name` VARCHAR(45) NULL,
+  PRIMARY KEY (`airlines_id`));
+
+CREATE TABLE `flyaway_data`.`flights` (
+  `flight_id` INT NOT NULL,
+  `source` VARCHAR(45) NULL,
+  `destination` VARCHAR(45) NULL,
+  `airline` VARCHAR(45) NULL,
+  `ticketprice` INT(8) NULL,
+  PRIMARY KEY (`flight_id`));
